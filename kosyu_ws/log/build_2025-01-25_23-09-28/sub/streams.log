@@ -1,0 +1,26 @@
+[0.234s] Invoking command in '/home/motoki/kosyu_ws/build/sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake /home/motoki/kosyu_ws/src/sub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/motoki/kosyu_ws/install/sub
+[1.318s] -- The C compiler identification is GNU 9.4.0
+[1.976s] -- The CXX compiler identification is GNU 9.4.0
+[2.140s] -- Check for working C compiler: /usr/bin/cc
+[2.591s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.736s] -- Detecting C compiler ABI info
+[3.015s] -- Detecting C compiler ABI info - done
+[3.183s] -- Detecting C compile features
+[3.184s] -- Detecting C compile features - done
+[3.191s] -- Check for working CXX compiler: /usr/bin/c++
+[3.450s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.454s] -- Detecting CXX compiler ABI info
+[3.885s] -- Detecting CXX compiler ABI info - done
+[3.913s] -- Detecting CXX compile features
+[3.914s] -- Detecting CXX compile features - done
+[4.072s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.301s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.302s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.698s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.792s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.073s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.078s] -- Added test 'lint_cmake' to check CMake code style
+[6.082s] -- Added test 'xmllint' to check XML markup files
+[6.091s] -- Configuring done
+[6.097s] -- Generating done
+[6.100s] -- Build files have been written to: /home/motoki/kosyu_ws/build/sub

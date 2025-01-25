@@ -1,0 +1,16 @@
+/home/motoki/kosyu_ws/install/pub/lib/pub/pub_node
+/home/motoki/kosyu_ws/install/pub/share/ament_index/resource_index/package_run_dependencies/pub
+/home/motoki/kosyu_ws/install/pub/share/ament_index/resource_index/parent_prefix_path/pub
+/home/motoki/kosyu_ws/install/pub/share/pub/environment/ament_prefix_path.sh
+/home/motoki/kosyu_ws/install/pub/share/pub/environment/ament_prefix_path.dsv
+/home/motoki/kosyu_ws/install/pub/share/pub/environment/path.sh
+/home/motoki/kosyu_ws/install/pub/share/pub/environment/path.dsv
+/home/motoki/kosyu_ws/install/pub/share/pub/local_setup.bash
+/home/motoki/kosyu_ws/install/pub/share/pub/local_setup.sh
+/home/motoki/kosyu_ws/install/pub/share/pub/local_setup.zsh
+/home/motoki/kosyu_ws/install/pub/share/pub/local_setup.dsv
+/home/motoki/kosyu_ws/install/pub/share/pub/package.dsv
+/home/motoki/kosyu_ws/install/pub/share/ament_index/resource_index/packages/pub
+/home/motoki/kosyu_ws/install/pub/share/pub/cmake/pubConfig.cmake
+/home/motoki/kosyu_ws/install/pub/share/pub/cmake/pubConfig-version.cmake
+/home/motoki/kosyu_ws/install/pub/share/pub/package.xml

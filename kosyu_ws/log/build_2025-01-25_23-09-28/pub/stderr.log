@@ -1,0 +1,12 @@
+CMake Error at CMakeLists.txt:29 (target_include_directories):
+  Cannot specify include directories for target "pub_node_test" which is not
+  built by this project.
+
+
+CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake:67 (message):
+  ament_cmake_symlink_install_targets() 'pub_node_test' is not a target
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/symlink_install/install.cmake:37 (ament_cmake_symlink_install_targets)
+  CMakeLists.txt:33 (install)
+
+

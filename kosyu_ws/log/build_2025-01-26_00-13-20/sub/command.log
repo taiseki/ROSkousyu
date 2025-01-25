@@ -1,0 +1,1 @@
+Invoking command in '/home/motoki/ROSkousyu/kosyu_ws/build/sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --build /home/motoki/ROSkousyu/kosyu_ws/build/sub -- -j6 -l6

@@ -1,0 +1,13 @@
+[0.042s] Invoking command in '/home/motoki/kosyu_ws/build/pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --build /home/motoki/kosyu_ws/build/pub -- -j6 -l6
+[0.137s] [35m[1mScanning dependencies of target pub_node[0m
+[0.189s] [ 33%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub_node.cpp.o[0m
+[0.190s] [ 66%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/main.cpp.o[0m
+[3.208s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:[m[K In constructor ‘[01m[KPubNode::PubNode(const string&, const rclcpp::NodeOptions&)[m[K’:
+[3.209s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:7:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[3.209s]     7 |  [01;31m[K}[m[K
+[3.209s]       |  [01;31m[K^[m[K
+[4.342s] make[2]: *** [CMakeFiles/pub_node.dir/build.make:63: CMakeFiles/pub_node.dir/src/pub_node.cpp.o] Error 1
+[4.342s] make[2]: *** Waiting for unfinished jobs....
+[4.648s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pub_node.dir/all] Error 2
+[4.648s] make: *** [Makefile:141: all] Error 2
+[4.655s] Invoked command in '/home/motoki/kosyu_ws/build/pub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --build /home/motoki/kosyu_ws/build/pub -- -j6 -l6

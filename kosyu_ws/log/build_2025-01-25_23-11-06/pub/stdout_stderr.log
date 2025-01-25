@@ -1,0 +1,12 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+  ament_target_dependencies() the first argument must be a valid target name
+Call Stack (most recent call first):
+  CMakeLists.txt:29 (ament_target_dependencies)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/motoki/kosyu_ws/build/pub/CMakeFiles/CMakeOutput.log".
+make: *** [Makefile:296: cmake_check_build_system] Error 1

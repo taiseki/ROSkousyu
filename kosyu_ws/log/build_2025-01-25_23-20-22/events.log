@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.001101] (pub) JobQueued: {'identifier': 'pub', 'dependencies': OrderedDict()}
+[0.001463] (sub) JobQueued: {'identifier': 'sub', 'dependencies': OrderedDict()}
+[0.001771] (pub) JobStarted: {'identifier': 'pub'}
+[0.030144] (sub) JobStarted: {'identifier': 'sub'}
+[0.059026] (pub) JobProgress: {'identifier': 'pub', 'progress': 'cmake'}
+[0.060701] (pub) Command: {'cmd': ['/usr/bin/cmake', '/home/motoki/kosyu_ws/src/pub', '-DCMAKE_INSTALL_PREFIX=/home/motoki/kosyu_ws/install/pub'], 'cwd': '/home/motoki/kosyu_ws/build/pub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'motoki'), ('LC_TIME', 'ja_JP.UTF-8'), ('SSH_AGENT_PID', '2048'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/motoki/my_ws/install/micro_ros_agent/lib:/home/motoki/my_ws/install/micro_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/motoki'), ('OLDPWD', '/home/motoki/kosyu_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('MANAGERPID', '1503'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/motoki/my_ws/install:/home/motoki/ydlidar_ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'motoki'), ('JOURNAL_STREAM', '8:47446'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'motoki'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/motoki/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/motoki:@/tmp/.ICE-unix/2083,unix/motoki:/tmp/.ICE-unix/2083'), ('INVOCATION_ID', '487e758877684fa6b235b0f33e15f0c8'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5724217a_e07f_4b80_9156_adb99070678c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/motoki/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/home/motoki/my_ws/install/micro_ros_setup:/home/motoki/my_ws/install/micro_ros_agent:/home/motoki/my_ws/install/micro_ros_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/motoki/kosyu_ws/build/pub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/motoki/my_ws/install/yolo/lib/python3.8/site-packages:/home/motoki/my_ws/install/robot_op2/lib/python3.8/site-packages:/home/motoki/my_ws/install/robot_op/lib/python3.8/site-packages:/home/motoki/my_ws/install/robot_odom/lib/python3.8/site-packages:/home/motoki/my_ws/install/robot_goal/lib/python3.8/site-packages:/home/motoki/my_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/motoki/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/motoki/my_ws/install/micro_ros_setup:/home/motoki/my_ws/install/micro_ros_agent:/home/motoki/my_ws/install/micro_ros_msgs')]), 'shell': False}
+[0.083094] (sub) JobProgress: {'identifier': 'sub', 'progress': 'cmake'}
+[0.084735] (sub) JobProgress: {'identifier': 'sub', 'progress': 'build'}
+[0.087406] (sub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/motoki/kosyu_ws/build/sub', '--', '-j6', '-l6'], 'cwd': '/home/motoki/kosyu_ws/build/sub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'motoki'), ('LC_TIME', 'ja_JP.UTF-8'), ('SSH_AGENT_PID', '2048'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/motoki/my_ws/install/micro_ros_agent/lib:/home/motoki/my_ws/install/micro_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/motoki'), ('OLDPWD', '/home/motoki/kosyu_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('MANAGERPID', '1503'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/motoki/my_ws/install:/home/motoki/ydlidar_ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'motoki'), ('JOURNAL_STREAM', '8:47446'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'motoki'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/motoki/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/motoki:@/tmp/.ICE-unix/2083,unix/motoki:/tmp/.ICE-unix/2083'), ('INVOCATION_ID', '487e758877684fa6b235b0f33e15f0c8'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5724217a_e07f_4b80_9156_adb99070678c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/motoki/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/home/motoki/my_ws/install/micro_ros_setup:/home/motoki/my_ws/install/micro_ros_agent:/home/motoki/my_ws/install/micro_ros_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/motoki/kosyu_ws/build/sub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/motoki/my_ws/install/yolo/lib/python3.8/site-packages:/home/motoki/my_ws/install/robot_op2/lib/python3.8/site-packages:/home/motoki/my_ws/install/robot_op/lib/python3.8/site-packages:/home/motoki/my_ws/install/robot_odom/lib/python3.8/site-packages:/home/motoki/my_ws/install/robot_goal/lib/python3.8/site-packages:/home/motoki/my_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/motoki/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/motoki/my_ws/install/micro_ros_setup:/home/motoki/my_ws/install/micro_ros_agent:/home/motoki/my_ws/install/micro_ros_msgs:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy')]), 'shell': False}
+[0.098385] (-) TimerEvent: {}
+[0.108250] (pub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.184255] (pub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.198576] (-) TimerEvent: {}
+[0.221978] (sub) CommandEnded: {'returncode': 0}
+[0.224036] (sub) JobProgress: {'identifier': 'sub', 'progress': 'install'}
+[0.270529] (sub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/motoki/kosyu_ws/build/sub'], 'cwd': '/home/motoki/kosyu_ws/build/sub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'motoki'), ('LC_TIME', 'ja_JP.UTF-8'), ('SSH_AGENT_PID', '2048'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/motoki/my_ws/install/micro_ros_agent/lib:/home/motoki/my_ws/install/micro_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/motoki'), ('OLDPWD', '/home/motoki/kosyu_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('MANAGERPID', '1503'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/motoki/my_ws/install:/home/motoki/ydlidar_ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'motoki'), ('JOURNAL_STREAM', '8:47446'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'motoki'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/motoki/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/motoki:@/tmp/.ICE-unix/2083,unix/motoki:/tmp/.ICE-unix/2083'), ('INVOCATION_ID', '487e758877684fa6b235b0f33e15f0c8'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5724217a_e07f_4b80_9156_adb99070678c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/motoki/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/home/motoki/my_ws/install/micro_ros_setup:/home/motoki/my_ws/install/micro_ros_agent:/home/motoki/my_ws/install/micro_ros_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/motoki/kosyu_ws/build/sub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/motoki/my_ws/install/yolo/lib/python3.8/site-packages:/home/motoki/my_ws/install/robot_op2/lib/python3.8/site-packages:/home/motoki/my_ws/install/robot_op/lib/python3.8/site-packages:/home/motoki/my_ws/install/robot_odom/lib/python3.8/site-packages:/home/motoki/my_ws/install/robot_goal/lib/python3.8/site-packages:/home/motoki/my_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/motoki/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/motoki/my_ws/install/micro_ros_setup:/home/motoki/my_ws/install/micro_ros_agent:/home/motoki/my_ws/install/micro_ros_msgs:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy')]), 'shell': False}
+[0.298765] (-) TimerEvent: {}
+[0.299910] (sub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.300962] (sub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.301694] (sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/ament_index/resource_index/package_run_dependencies/sub\n'}
+[0.302428] (sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/ament_index/resource_index/parent_prefix_path/sub\n'}
+[0.302819] (sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/environment/ament_prefix_path.sh\n'}
+[0.303289] (sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/environment/ament_prefix_path.dsv\n'}
+[0.303725] (sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/environment/path.sh\n'}
+[0.304171] (sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/environment/path.dsv\n'}
+[0.304650] (sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/local_setup.bash\n'}
+[0.305088] (sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/local_setup.sh\n'}
+[0.305525] (sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/local_setup.zsh\n'}
+[0.305970] (sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/local_setup.dsv\n'}
+[0.306335] (sub) StdoutLine: {'line': b'-- Symlinking: /home/motoki/kosyu_ws/install/sub/share/sub/package.dsv\n'}
+[0.333356] (sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/ament_index/resource_index/packages/sub\n'}
+[0.333971] (sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/cmake/subConfig.cmake\n'}
+[0.334359] (sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/cmake/subConfig-version.cmake\n'}
+[0.334719] (sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/package.xml\n'}
+[0.341000] (sub) CommandEnded: {'returncode': 0}
+[0.398908] (-) TimerEvent: {}
+[0.499566] (-) TimerEvent: {}
+[0.512902] (sub) JobEnded: {'identifier': 'sub', 'rc': 0}
+[0.599823] (-) TimerEvent: {}
+[0.646117] (pub) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.700105] (-) TimerEvent: {}
+[0.739186] (pub) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.800338] (-) TimerEvent: {}
+[0.901325] (-) TimerEvent: {}
+[1.002318] (-) TimerEvent: {}
+[1.010854] (pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.030565] (pub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.102542] (-) TimerEvent: {}
+[1.203505] (-) TimerEvent: {}
+[1.304550] (-) TimerEvent: {}
+[1.405602] (-) TimerEvent: {}
+[1.506668] (-) TimerEvent: {}
+[1.607750] (-) TimerEvent: {}
+[1.673970] (pub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.707936] (-) TimerEvent: {}
+[1.808869] (-) TimerEvent: {}
+[1.909854] (-) TimerEvent: {}
+[1.944684] (pub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.009986] (-) TimerEvent: {}
+[2.110903] (-) TimerEvent: {}
+[2.211938] (-) TimerEvent: {}
+[2.313015] (-) TimerEvent: {}
+[2.357664] (pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.413250] (-) TimerEvent: {}
+[2.514283] (-) TimerEvent: {}
+[2.615335] (-) TimerEvent: {}
+[2.646517] (pub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.652553] (pub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.656668] (pub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.715567] (-) TimerEvent: {}
+[2.816558] (-) TimerEvent: {}
+[2.917522] (-) TimerEvent: {}
+[2.992627] (pub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.993657] (pub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.017961] (-) TimerEvent: {}
+[3.119111] (-) TimerEvent: {}
+[3.220163] (-) TimerEvent: {}
+[3.321397] (-) TimerEvent: {}
+[3.382124] (pub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.382942] (pub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.421634] (-) TimerEvent: {}
+[3.522664] (-) TimerEvent: {}
+[3.623736] (-) TimerEvent: {}
+[3.724875] (-) TimerEvent: {}
+[3.826231] (-) TimerEvent: {}
+[3.892939] (pub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.894010] (pub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.926440] (-) TimerEvent: {}
+[4.027439] (-) TimerEvent: {}
+[4.128544] (-) TimerEvent: {}
+[4.132160] (pub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.136300] (pub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.228788] (-) TimerEvent: {}
+[4.329861] (-) TimerEvent: {}
+[4.430769] (-) TimerEvent: {}
+[4.531592] (-) TimerEvent: {}
+[4.632521] (-) TimerEvent: {}
+[4.733575] (-) TimerEvent: {}
+[4.834660] (-) TimerEvent: {}
+[4.935744] (-) TimerEvent: {}
+[5.036749] (-) TimerEvent: {}
+[5.137801] (-) TimerEvent: {}
+[5.238837] (-) TimerEvent: {}
+[5.339837] (-) TimerEvent: {}
+[5.440898] (-) TimerEvent: {}
+[5.450560] (pub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.541086] (-) TimerEvent: {}
+[5.571109] (pub) StderrLine: {'line': b"Error parsing '/home/motoki/kosyu_ws/src/pub/package.xml':\n"}
+[5.641291] (-) TimerEvent: {}
+[5.742170] (-) TimerEvent: {}
+[5.843019] (-) TimerEvent: {}
+[5.927770] (pub) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[5.928487] (pub) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>\n'}
+[5.928675] (pub) StderrLine: {'line': b'    main()\n'}
+[5.928822] (pub) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main\n'}
+[5.928961] (pub) StderrLine: {'line': b'    raise e\n'}
+[5.929090] (pub) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main\n'}
+[5.929217] (pub) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[5.929402] (pub) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[5.929526] (pub) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[5.929649] (pub) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/motoki/kosyu_ws/src/pub/package.xml':\n"}
+[5.929767] (pub) StderrLine: {'line': b'Error(s):\n'}
+[5.929882] (pub) StderrLine: {'line': b'- The manifest of package "pub" (with format version 3) must not contain the following tags: dependency\n'}
+[5.943144] (-) TimerEvent: {}
+[6.022118] (pub) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[6.022892] (pub) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[6.023064] (pub) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[6.023211] (pub) StderrLine: {'line': b'  /home/motoki/kosyu_ws/src/pub/package.xml\n'}
+[6.023352] (pub) StderrLine: {'line': b'  /home/motoki/kosyu_ws/build/pub/ament_cmake_core/package.cmake) returned\n'}
+[6.023487] (pub) StderrLine: {'line': b'  error code 1\n'}
+[6.023614] (pub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.023759] (pub) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[6.023887] (pub) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[6.024013] (pub) StderrLine: {'line': b'  CMakeLists.txt:48 (ament_lint_auto_find_test_dependencies)\n'}
+[6.024133] (pub) StderrLine: {'line': b'\n'}
+[6.024247] (pub) StderrLine: {'line': b'\n'}
+[6.027611] (pub) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.027830] (pub) StdoutLine: {'line': b'See also "/home/motoki/kosyu_ws/build/pub/CMakeFiles/CMakeOutput.log".\n'}
+[6.027971] (pub) StdoutLine: {'line': b'See also "/home/motoki/kosyu_ws/build/pub/CMakeFiles/CMakeError.log".\n'}
+[6.043327] (-) TimerEvent: {}
+[6.060091] (pub) CommandEnded: {'returncode': 1}
+[6.062738] (pub) JobEnded: {'identifier': 'pub', 'rc': 1}
+[6.066416] (-) EventReactorShutdown: {}

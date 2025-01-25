@@ -1,0 +1,17 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/motoki/kosyu_ws/install/sub/share/ament_index/resource_index/package_run_dependencies/sub
+-- Symlinking: /home/motoki/kosyu_ws/install/sub/share/ament_index/resource_index/parent_prefix_path/sub
+-- Symlinking: /home/motoki/kosyu_ws/install/sub/share/sub/environment/ament_prefix_path.sh
+-- Symlinking: /home/motoki/kosyu_ws/install/sub/share/sub/environment/ament_prefix_path.dsv
+-- Symlinking: /home/motoki/kosyu_ws/install/sub/share/sub/environment/path.sh
+-- Symlinking: /home/motoki/kosyu_ws/install/sub/share/sub/environment/path.dsv
+-- Symlinking: /home/motoki/kosyu_ws/install/sub/share/sub/local_setup.bash
+-- Symlinking: /home/motoki/kosyu_ws/install/sub/share/sub/local_setup.sh
+-- Symlinking: /home/motoki/kosyu_ws/install/sub/share/sub/local_setup.zsh
+-- Symlinking: /home/motoki/kosyu_ws/install/sub/share/sub/local_setup.dsv
+-- Symlinking: /home/motoki/kosyu_ws/install/sub/share/sub/package.dsv
+-- Symlinking: /home/motoki/kosyu_ws/install/sub/share/ament_index/resource_index/packages/sub
+-- Symlinking: /home/motoki/kosyu_ws/install/sub/share/sub/cmake/subConfig.cmake
+-- Symlinking: /home/motoki/kosyu_ws/install/sub/share/sub/cmake/subConfig-version.cmake
+-- Symlinking: /home/motoki/kosyu_ws/install/sub/share/sub/package.xml

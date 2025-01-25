@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target pub_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub_node.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable pub_node[0m
+[100%] Built target pub_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/motoki/kosyu_ws/install/pub/lib/pub/pub_node
+-- Symlinking: /home/motoki/kosyu_ws/install/pub/share/ament_index/resource_index/package_run_dependencies/pub
+-- Symlinking: /home/motoki/kosyu_ws/install/pub/share/ament_index/resource_index/parent_prefix_path/pub
+-- Symlinking: /home/motoki/kosyu_ws/install/pub/share/pub/environment/ament_prefix_path.sh
+-- Symlinking: /home/motoki/kosyu_ws/install/pub/share/pub/environment/ament_prefix_path.dsv
+-- Symlinking: /home/motoki/kosyu_ws/install/pub/share/pub/environment/path.sh
+-- Symlinking: /home/motoki/kosyu_ws/install/pub/share/pub/environment/path.dsv
+-- Symlinking: /home/motoki/kosyu_ws/install/pub/share/pub/local_setup.bash
+-- Symlinking: /home/motoki/kosyu_ws/install/pub/share/pub/local_setup.sh
+-- Symlinking: /home/motoki/kosyu_ws/install/pub/share/pub/local_setup.zsh
+-- Symlinking: /home/motoki/kosyu_ws/install/pub/share/pub/local_setup.dsv
+-- Symlinking: /home/motoki/kosyu_ws/install/pub/share/pub/package.dsv
+-- Symlinking: /home/motoki/kosyu_ws/install/pub/share/ament_index/resource_index/packages/pub
+-- Symlinking: /home/motoki/kosyu_ws/install/pub/share/pub/cmake/pubConfig.cmake
+-- Symlinking: /home/motoki/kosyu_ws/install/pub/share/pub/cmake/pubConfig-version.cmake
+-- Symlinking: /home/motoki/kosyu_ws/install/pub/share/pub/package.xml

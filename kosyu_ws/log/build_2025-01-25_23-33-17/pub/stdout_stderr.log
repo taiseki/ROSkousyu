@@ -1,0 +1,25 @@
+[35m[1mScanning dependencies of target pub_node[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub_node.cpp.o[0m
+In file included from [01m[K/home/motoki/kosyu_ws/src/pub/src/main.cpp:2[m[K:
+[01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.hpp:9:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+    9 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+In file included from [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:2[m[K:
+[01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.hpp:3:1:[m[K [01;31m[Kerror: [m[Knew types may not be defined in a return type
+    3 | [01;31m[Kclass[m[K PubNode : public rclcpp::Node{
+      | [01;31m[K^~~~~[m[K
+[01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.hpp:3:1:[m[K [01;36m[Knote: [m[K(perhaps a semicolon is missing after the definition of ‘[01m[KPubNode[m[K’)
+[01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:4:83:[m[K [01;31m[Kerror: [m[Kreturn type specification for constructor invalid
+    4 | PubNode::PubNode(const std::string& name_space, const rclcpp::NodeOptions& options[01;31m[K)[m[K
+      |                                                                                   [01;31m[K^[m[K
+[01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:[m[K In constructor ‘[01m[KPubNode::PubNode(const string&, const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:7:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+    7 |  [01;31m[K}[m[K
+      |  [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/pub_node.dir/build.make:76: CMakeFiles/pub_node.dir/src/main.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/pub_node.dir/build.make:63: CMakeFiles/pub_node.dir/src/pub_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pub_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

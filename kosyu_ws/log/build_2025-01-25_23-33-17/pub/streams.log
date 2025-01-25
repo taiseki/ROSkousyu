@@ -1,0 +1,27 @@
+[0.046s] Invoking command in '/home/motoki/kosyu_ws/build/pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --build /home/motoki/kosyu_ws/build/pub -- -j6 -l6
+[0.139s] [35m[1mScanning dependencies of target pub_node[0m
+[0.192s] [ 66%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/main.cpp.o[0m
+[0.192s] [ 66%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub_node.cpp.o[0m
+[2.972s] In file included from [01m[K/home/motoki/kosyu_ws/src/pub/src/main.cpp:2[m[K:
+[2.973s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.hpp:9:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[2.973s]     9 | }
+[2.973s]       |  [01;31m[K^[m[K
+[2.973s]       |  [32m[K;[m[K
+[2.993s] In file included from [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:2[m[K:
+[2.993s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.hpp:3:1:[m[K [01;31m[Kerror: [m[Knew types may not be defined in a return type
+[2.993s]     3 | [01;31m[Kclass[m[K PubNode : public rclcpp::Node{
+[2.993s]       | [01;31m[K^~~~~[m[K
+[2.993s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.hpp:3:1:[m[K [01;36m[Knote: [m[K(perhaps a semicolon is missing after the definition of ‘[01m[KPubNode[m[K’)
+[2.993s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:4:83:[m[K [01;31m[Kerror: [m[Kreturn type specification for constructor invalid
+[2.993s]     4 | PubNode::PubNode(const std::string& name_space, const rclcpp::NodeOptions& options[01;31m[K)[m[K
+[2.994s]       |                                                                                   [01;31m[K^[m[K
+[2.994s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:[m[K In constructor ‘[01m[KPubNode::PubNode(const string&, const rclcpp::NodeOptions&)[m[K’:
+[2.994s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:7:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[2.994s]     7 |  [01;31m[K}[m[K
+[2.994s]       |  [01;31m[K^[m[K
+[4.067s] make[2]: *** [CMakeFiles/pub_node.dir/build.make:76: CMakeFiles/pub_node.dir/src/main.cpp.o] Error 1
+[4.068s] make[2]: *** Waiting for unfinished jobs....
+[4.068s] make[2]: *** [CMakeFiles/pub_node.dir/build.make:63: CMakeFiles/pub_node.dir/src/pub_node.cpp.o] Error 1
+[4.069s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pub_node.dir/all] Error 2
+[4.069s] make: *** [Makefile:141: all] Error 2
+[4.076s] Invoked command in '/home/motoki/kosyu_ws/build/pub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --build /home/motoki/kosyu_ws/build/pub -- -j6 -l6

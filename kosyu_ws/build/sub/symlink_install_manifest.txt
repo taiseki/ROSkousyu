@@ -1,0 +1,15 @@
+/home/motoki/kosyu_ws/install/sub/share/ament_index/resource_index/package_run_dependencies/sub
+/home/motoki/kosyu_ws/install/sub/share/ament_index/resource_index/parent_prefix_path/sub
+/home/motoki/kosyu_ws/install/sub/share/sub/environment/ament_prefix_path.sh
+/home/motoki/kosyu_ws/install/sub/share/sub/environment/ament_prefix_path.dsv
+/home/motoki/kosyu_ws/install/sub/share/sub/environment/path.sh
+/home/motoki/kosyu_ws/install/sub/share/sub/environment/path.dsv
+/home/motoki/kosyu_ws/install/sub/share/sub/local_setup.bash
+/home/motoki/kosyu_ws/install/sub/share/sub/local_setup.sh
+/home/motoki/kosyu_ws/install/sub/share/sub/local_setup.zsh
+/home/motoki/kosyu_ws/install/sub/share/sub/local_setup.dsv
+/home/motoki/kosyu_ws/install/sub/share/sub/package.dsv
+/home/motoki/kosyu_ws/install/sub/share/ament_index/resource_index/packages/sub
+/home/motoki/kosyu_ws/install/sub/share/sub/cmake/subConfig.cmake
+/home/motoki/kosyu_ws/install/sub/share/sub/cmake/subConfig-version.cmake
+/home/motoki/kosyu_ws/install/sub/share/sub/package.xml

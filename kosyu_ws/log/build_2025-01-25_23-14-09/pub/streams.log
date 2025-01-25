@@ -1,0 +1,15 @@
+[0.047s] Invoking command in '/home/motoki/kosyu_ws/build/pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --build /home/motoki/kosyu_ws/build/pub -- -j6 -l6
+[0.104s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.168s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.583s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.597s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.598s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[0.598s]   before
+[0.598s] Call Stack (most recent call first):
+[0.598s]   CMakeLists.txt:29 (ament_target_dependencies)
+[0.598s] 
+[0.599s] 
+[0.599s] -- Configuring incomplete, errors occurred!
+[0.599s] See also "/home/motoki/kosyu_ws/build/pub/CMakeFiles/CMakeOutput.log".
+[0.603s] make: *** [Makefile:296: cmake_check_build_system] Error 1
+[0.608s] Invoked command in '/home/motoki/kosyu_ws/build/pub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --build /home/motoki/kosyu_ws/build/pub -- -j6 -l6

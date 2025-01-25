@@ -1,0 +1,25 @@
+[0.067s] Invoking command in '/home/motoki/kosyu_ws/build/pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --build /home/motoki/kosyu_ws/build/pub -- -j6 -l6
+[0.147s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.225s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.679s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.714s] CMake Error at CMakeLists.txt:22 (find_package):
+[0.715s]   By not providing "Find<dependency>.cmake" in CMAKE_MODULE_PATH this project
+[0.715s]   has asked CMake to find a package configuration file provided by
+[0.715s]   "<dependency>", but CMake did not find one.
+[0.715s] 
+[0.716s]   Could not find a package configuration file provided by "<dependency>" with
+[0.716s]   any of the following names:
+[0.716s] 
+[0.717s]     <dependency>Config.cmake
+[0.717s]     <dependency>-config.cmake
+[0.717s] 
+[0.717s]   Add the installation prefix of "<dependency>" to CMAKE_PREFIX_PATH or set
+[0.717s]   "<dependency>_DIR" to a directory containing one of the above files.  If
+[0.718s]   "<dependency>" provides a separate development package or SDK, be sure it
+[0.718s]   has been installed.
+[0.718s] 
+[0.718s] 
+[0.719s] -- Configuring incomplete, errors occurred!
+[0.719s] See also "/home/motoki/kosyu_ws/build/pub/CMakeFiles/CMakeOutput.log".
+[0.723s] make: *** [Makefile:296: cmake_check_build_system] Error 1
+[0.729s] Invoked command in '/home/motoki/kosyu_ws/build/pub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --build /home/motoki/kosyu_ws/build/pub -- -j6 -l6

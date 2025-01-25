@@ -1,0 +1,50 @@
+[0.052s] Invoking command in '/home/motoki/kosyu_ws/build/pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --build /home/motoki/kosyu_ws/build/pub -- -j6 -l6
+[0.141s] [35m[1mScanning dependencies of target pub_node[0m
+[0.197s] [ 66%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub_node.cpp.o[0m
+[0.198s] [ 66%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/main.cpp.o[0m
+[2.984s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[2.984s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[2.985s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.985s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.985s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.985s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.985s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.985s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.985s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.986s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.986s]                  from [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:1[m[K:
+[2.986s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:[m[K In lambda function:
+[2.986s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:17:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PubNode[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.986s]    17 |       RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(), "Pub:%s", msg->data.c_str());
+[2.986s]       |                         [01;31m[K^~~~~~~~~[m[K
+[2.986s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:17:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PubNode[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.986s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:17:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.987s]    17 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "Pub:%s", msg->data.c_str());
+[2.987s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.987s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:17:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.987s]    17 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "Pub:%s", msg->data.c_str());
+[2.987s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.987s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:17:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.987s]    17 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "Pub:%s", msg->data.c_str());
+[2.987s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.987s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[2.988s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[2.988s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.988s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.988s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.988s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.988s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.988s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.988s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.988s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.989s]                  from [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:1[m[K:
+[2.989s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:17:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PubNode[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.989s]    17 |       RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(), "Pub:%s", msg->data.c_str());
+[2.989s]       |                         [01;31m[K^~~~~~~~~[m[K
+[2.989s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:17:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PubNode[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.989s]    17 |       RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(), "Pub:%s", msg->data.c_str());
+[2.989s]       |                         [01;31m[K^~~~~~~~~[m[K
+[5.536s] make[2]: *** [CMakeFiles/pub_node.dir/build.make:63: CMakeFiles/pub_node.dir/src/pub_node.cpp.o] Error 1
+[5.537s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pub_node.dir/all] Error 2
+[5.537s] make: *** [Makefile:141: all] Error 2
+[5.545s] Invoked command in '/home/motoki/kosyu_ws/build/pub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --build /home/motoki/kosyu_ws/build/pub -- -j6 -l6

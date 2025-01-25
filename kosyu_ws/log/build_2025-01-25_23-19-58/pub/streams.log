@@ -1,0 +1,24 @@
+[0.045s] Invoking command in '/home/motoki/kosyu_ws/build/pub': /usr/bin/cmake /home/motoki/kosyu_ws/src/pub -DCMAKE_INSTALL_PREFIX=/home/motoki/kosyu_ws/install/pub
+[0.081s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.142s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.542s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.575s] CMake Error at CMakeLists.txt:22 (find_package):
+[0.575s]   By not providing "Find<dependency>.cmake" in CMAKE_MODULE_PATH this project
+[0.575s]   has asked CMake to find a package configuration file provided by
+[0.575s]   "<dependency>", but CMake did not find one.
+[0.575s] 
+[0.575s]   Could not find a package configuration file provided by "<dependency>" with
+[0.576s]   any of the following names:
+[0.576s] 
+[0.576s]     <dependency>Config.cmake
+[0.576s]     <dependency>-config.cmake
+[0.576s] 
+[0.576s]   Add the installation prefix of "<dependency>" to CMAKE_PREFIX_PATH or set
+[0.576s]   "<dependency>_DIR" to a directory containing one of the above files.  If
+[0.576s]   "<dependency>" provides a separate development package or SDK, be sure it
+[0.576s]   has been installed.
+[0.577s] 
+[0.577s] 
+[0.577s] -- Configuring incomplete, errors occurred!
+[0.577s] See also "/home/motoki/kosyu_ws/build/pub/CMakeFiles/CMakeOutput.log".
+[0.582s] Invoked command in '/home/motoki/kosyu_ws/build/pub' returned '1': /usr/bin/cmake /home/motoki/kosyu_ws/src/pub -DCMAKE_INSTALL_PREFIX=/home/motoki/kosyu_ws/install/pub

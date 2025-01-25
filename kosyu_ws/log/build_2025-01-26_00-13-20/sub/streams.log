@@ -1,0 +1,5 @@
+[0.070s] Invoking command in '/home/motoki/ROSkousyu/kosyu_ws/build/sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --build /home/motoki/ROSkousyu/kosyu_ws/build/sub -- -j6 -l6
+[0.100s] CMake Error: The current CMakeCache.txt directory /home/motoki/ROSkousyu/kosyu_ws/build/sub/CMakeCache.txt is different than the directory /home/motoki/kosyu_ws/build/sub where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.131s] CMake Error: The source directory "/home/motoki/kosyu_ws/src/sub" does not exist.
+[0.132s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.133s] make: *** [Makefile:222: cmake_check_build_system] Error 1

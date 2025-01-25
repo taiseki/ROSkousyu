@@ -1,0 +1,1 @@
+/home/motoki/kosyu_ws/build/pub/ament_cmake_environment_hooks/local_setup.bash

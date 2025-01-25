@@ -1,0 +1,34 @@
+[0.205s] Invoking command in '/home/motoki/kosyu_ws/build/pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake /home/motoki/kosyu_ws/src/pub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/motoki/kosyu_ws/install/pub
+[1.495s] -- The C compiler identification is GNU 9.4.0
+[2.152s] -- The CXX compiler identification is GNU 9.4.0
+[2.317s] -- Check for working C compiler: /usr/bin/cc
+[2.768s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.913s] -- Detecting C compiler ABI info
+[3.192s] -- Detecting C compiler ABI info - done
+[3.359s] -- Detecting C compile features
+[3.361s] -- Detecting C compile features - done
+[3.370s] -- Check for working CXX compiler: /usr/bin/c++
+[3.628s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.630s] -- Detecting CXX compiler ABI info
+[4.061s] -- Detecting CXX compiler ABI info - done
+[4.098s] -- Detecting CXX compile features
+[4.099s] -- Detecting CXX compile features - done
+[4.249s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.479s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.479s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.875s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.964s] CMake Error at CMakeLists.txt:29 (target_include_directories):
+[5.964s]   Cannot specify include directories for target "pub_node_test" which is not
+[5.964s]   built by this project.
+[5.964s] 
+[5.965s] 
+[5.965s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake:67 (message):
+[5.965s]   ament_cmake_symlink_install_targets() 'pub_node_test' is not a target
+[5.965s] Call Stack (most recent call first):
+[5.965s]   /opt/ros/foxy/share/ament_cmake_core/cmake/symlink_install/install.cmake:37 (ament_cmake_symlink_install_targets)
+[5.965s]   CMakeLists.txt:33 (install)
+[5.965s] 
+[5.965s] 
+[5.966s] -- Configuring incomplete, errors occurred!
+[5.966s] See also "/home/motoki/kosyu_ws/build/pub/CMakeFiles/CMakeOutput.log".
+[5.979s] Invoked command in '/home/motoki/kosyu_ws/build/pub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake /home/motoki/kosyu_ws/src/pub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/motoki/kosyu_ws/install/pub

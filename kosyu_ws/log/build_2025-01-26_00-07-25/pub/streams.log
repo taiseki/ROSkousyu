@@ -1,0 +1,91 @@
+[0.059s] Invoking command in '/home/motoki/kosyu_ws/build/pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --build /home/motoki/kosyu_ws/build/pub -- -j6 -l6
+[0.139s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.212s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.667s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.684s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.752s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.757s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.012s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.105s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.108s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.514s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[2.036s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.212s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.214s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.214s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/motoki/kosyu_ws/src/pub/include>
+[2.214s] -- Configured cppcheck exclude dirs and/or files: 
+[2.215s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.216s] -- Configured cpplint exclude dirs and/or files: 
+[2.216s] -- Added test 'lint_cmake' to check CMake code style
+[2.218s] -- Added test 'uncrustify' to check C / C++ code style
+[2.218s] -- Configured uncrustify additional arguments: 
+[2.218s] -- Added test 'xmllint' to check XML markup files
+[2.226s] -- Configuring done
+[2.245s] -- Generating done
+[2.310s] -- Build files have been written to: /home/motoki/kosyu_ws/build/pub
+[2.394s] [35m[1mScanning dependencies of target pub_node[0m
+[2.746s] [ 66%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub_node.cpp.o[0m
+[2.747s] [ 66%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/main.cpp.o[0m
+[6.097s] In file included from [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:5[m[K:
+[6.097s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.hpp:7:17:[m[K [01;31m[Kerror: [m[K‘[01m[KTimerVase[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type; did you mean ‘[01m[KTimerBase[m[K’?
+[6.098s]     7 |         rclcpp::[01;31m[KTimerVase[m[K::SharedPtr timer_;
+[6.098s]       |                 [01;31m[K^~~~~~~~~[m[K
+[6.098s]       |                 [32m[KTimerBase[m[K
+[6.112s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:[m[K In constructor ‘[01m[KPubNode::PubNode(const string&, const rclcpp::NodeOptions&)[m[K’:
+[6.112s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:12:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[6.112s]    12 |   [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[6.113s]       |   [01;31m[K^~~~~~[m[K
+[6.113s]       |   [32m[Ktimer_t[m[K
+[6.124s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[6.125s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[6.125s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[6.125s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[6.125s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[6.126s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[6.126s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[6.126s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[6.126s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[6.126s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.126s]                  from [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:1[m[K:
+[6.127s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:[m[K In lambda function:
+[6.127s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:17:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PubNode[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[6.127s]    17 |       RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(), "Pub:%s", msg->data.c_str());
+[6.128s]       |                         [01;31m[K^~~~~~~~~[m[K
+[6.128s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:17:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PubNode[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[6.128s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:17:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.128s]    17 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "Pub:%s", msg->data.c_str());
+[6.128s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[6.128s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:17:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.128s]    17 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "Pub:%s", msg->data.c_str());
+[6.128s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[6.129s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:17:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.129s]    17 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "Pub:%s", msg->data.c_str());
+[6.129s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[6.129s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[6.129s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[6.129s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[6.129s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[6.129s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[6.129s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[6.130s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[6.130s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[6.130s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[6.130s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.130s]                  from [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:1[m[K:
+[6.130s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:17:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PubNode[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[6.130s]    17 |       RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(), "Pub:%s", msg->data.c_str());
+[6.130s]       |                         [01;31m[K^~~~~~~~~[m[K
+[6.131s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.cpp:17:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PubNode[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[6.131s]    17 |       RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(), "Pub:%s", msg->data.c_str());
+[6.131s]       |                         [01;31m[K^~~~~~~~~[m[K
+[6.177s] In file included from [01m[K/home/motoki/kosyu_ws/src/pub/src/main.cpp:2[m[K:
+[6.177s] [01m[K/home/motoki/kosyu_ws/src/pub/src/pub_node.hpp:7:17:[m[K [01;31m[Kerror: [m[K‘[01m[KTimerVase[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type; did you mean ‘[01m[KTimerBase[m[K’?
+[6.177s]     7 |         rclcpp::[01;31m[KTimerVase[m[K::SharedPtr timer_;
+[6.177s]       |                 [01;31m[K^~~~~~~~~[m[K
+[6.178s]       |                 [32m[KTimerBase[m[K
+[7.390s] make[2]: *** [CMakeFiles/pub_node.dir/build.make:76: CMakeFiles/pub_node.dir/src/main.cpp.o] Error 1
+[7.390s] make[2]: *** Waiting for unfinished jobs....
+[8.374s] make[2]: *** [CMakeFiles/pub_node.dir/build.make:63: CMakeFiles/pub_node.dir/src/pub_node.cpp.o] Error 1
+[8.375s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pub_node.dir/all] Error 2
+[8.375s] make: *** [Makefile:141: all] Error 2
+[8.380s] Invoked command in '/home/motoki/kosyu_ws/build/pub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --build /home/motoki/kosyu_ws/build/pub -- -j6 -l6
