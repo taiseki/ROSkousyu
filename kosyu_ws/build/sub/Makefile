@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named sub_node
+
+# Build rule for target.
+sub_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sub_node
+.PHONY : sub_node
+
+# fast build rule for target.
+sub_node/fast:
+	$(MAKE) -f CMakeFiles/sub_node.dir/build.make CMakeFiles/sub_node.dir/build
+.PHONY : sub_node/fast
+
+#=============================================================================
 # Target rules for targets named sub_uninstall
 
 # Build rule for target.
@@ -193,6 +206,33 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/sub_node.dir/build.make CMakeFiles/sub_node.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/sub_node.dir/build.make CMakeFiles/sub_node.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/sub_node.dir/build.make CMakeFiles/sub_node.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -206,8 +246,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... sub_node"
 	@echo "... sub_uninstall"
 	@echo "... uninstall"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

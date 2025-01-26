@@ -1,0 +1,38 @@
+In file included from [01m[K/home/motoki/kosyu_ws/src/sub/src/sub_node.cpp:4[m[K:
+[01m[K/home/motoki/kosyu_ws/src/sub/src/sub_node.hpp:13:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces::msg::string[m[K’ has not been declared
+   13 |         void sub_callback(example_interfaces::msg::[01;31m[Kstring[m[K::SharedPtr msg) ->void {
+      |                                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/motoki/kosyu_ws/src/sub/src/sub_node.hpp:13:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kmsg[m[K’
+   13 |      void sub_callback(example_interfaces::msg::string::SharedPtr [01;31m[Kmsg[m[K) ->void {
+      |                                                                   [01;31m[K^~~[m[K
+
+[01m[K/home/motoki/kosyu_ws/src/sub/src/sub_node.hpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_callback[m[K’ function with trailing return type not declared with ‘[01m[Kauto[m[K’ type specifier
+   13 |         [01;31m[Kvoid[m[K sub_callback(example_interfaces::msg::string::SharedPtr msg) ->void {
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/motoki/kosyu_ws/src/sub/src/sub_node.cpp:[m[K In constructor ‘[01m[KSubNode::SubNode(const string&, const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/motoki/kosyu_ws/src/sub/src/sub_node.cpp:10:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ is not a member of ‘[01m[Kexample_interfaces::msg[m[K’; did you mean ‘[01m[KString[m[K’?
+   10 |     sub_ = this->create_subscription<example_interfaces::msg::[01;31m[Kstring[m[K>(
+      |                                                               [01;31m[K^~~~~~[m[K
+      |                                                               [32m[KString[m[K
+[01m[K/home/motoki/kosyu_ws/src/sub/src/sub_node.cpp:10:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ is not a member of ‘[01m[Kexample_interfaces::msg[m[K’; did you mean ‘[01m[KString[m[K’?
+   10 |     sub_ = this->create_subscription<example_interfaces::msg::[01;31m[Kstring[m[K>(
+      |                                                               [01;31m[K^~~~~~[m[K
+      |                                                               [32m[KString[m[K
+[01m[K/home/motoki/kosyu_ws/src/sub/src/sub_node.cpp:13:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SubNode[m[K’ has no member named ‘[01m[Ksub_callback[m[K’
+   13 |         this->[01;31m[Ksub_callback[m[K
+      |               [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/motoki/kosyu_ws/src/sub/src/main.cpp:2[m[K:
+[01m[K/home/motoki/kosyu_ws/src/sub/src/sub_node.hpp:13:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces::msg::string[m[K’ has not been declared
+   13 |         void sub_callback(example_interfaces::msg::[01;31m[Kstring[m[K::SharedPtr msg) ->void {
+      |                                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/motoki/kosyu_ws/src/sub/src/sub_node.hpp:13:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kmsg[m[K’
+   13 |         void sub_callback(example_interfaces::msg::string::SharedPtr [01;31m[Kmsg[m[K) ->void {
+      |                                                                      [01;31m[K^~~[m[K
+[01m[K/home/motoki/kosyu_ws/src/sub/src/sub_node.hpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_callback[m[K’ function with trailing return type not declared with ‘[01m[Kauto[m[K’ type specifier
+   13 |         [01;31m[Kvoid[m[K sub_callback(example_interfaces::msg::string::SharedPtr msg) ->void {
+      |         [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/sub_node.dir/build.make:63: CMakeFiles/sub_node.dir/src/sub_node.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/sub_node.dir/build.make:76: CMakeFiles/sub_node.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/sub_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

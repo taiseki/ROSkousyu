@@ -5,5 +5,6 @@
 /home/motoki/kosyu_ws/build/sub/CMakeFiles/rebuild_cache.dir
 /home/motoki/kosyu_ws/build/sub/CMakeFiles/edit_cache.dir
 /home/motoki/kosyu_ws/build/sub/CMakeFiles/test.dir
+/home/motoki/kosyu_ws/build/sub/CMakeFiles/sub_node.dir
 /home/motoki/kosyu_ws/build/sub/CMakeFiles/sub_uninstall.dir
 /home/motoki/kosyu_ws/build/sub/CMakeFiles/uninstall.dir

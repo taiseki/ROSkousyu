@@ -1,0 +1,10 @@
+[01m[K/home/motoki/kosyu_ws/src/sub/src/sub_node.cpp:[m[K In constructor ‘[01m[KSubNode::SubNode(const string&, const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/motoki/kosyu_ws/src/sub/src/sub_node.cpp:13:31:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kvoid (SubNode::*)(example_interfaces::msg::String_<std::allocator<void> >::SharedPtr)[m[K’ {aka ‘[01m[Kvoid (SubNode::*)(std::shared_ptr<example_interfaces::msg::String_<std::allocator<void> > >)[m[K’} and ‘[01m[KSubNode*[m[K’ to binary ‘[01m[Koperator<[m[K’
+   13 |         [01;31m[K&SubNode::sub_callback<this[m[K>
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/motoki/kosyu_ws/src/sub/src/sub_node.cpp:14:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   14 |     [01;31m[K)[m[K
+      |     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/sub_node.dir/build.make:63: CMakeFiles/sub_node.dir/src/sub_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/sub_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

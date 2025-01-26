@@ -11,4 +11,11 @@ class PubNode : public rclcpp::Node{
             const std::string& name_space="",
             const rclcpp::NodeOptions& options = rclcpp::NodeOptions()
         );
+    private:
+        void timer_callback(){
+            auto msg = std::make_shared<example_interfaces::msg::String>();
+            msg->data = "hello " + std::to_string(count_++);
+            RCLCPP_INFO(this->get_logger(), "Pub:%s", msg->data.c_str());
+            publisher_->publish(*msg);
+        }
 };

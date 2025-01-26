@@ -1,0 +1,11 @@
+[0.044s] Invoking command in '/home/motoki/kosyu_ws/build/sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --build /home/motoki/kosyu_ws/build/sub -- -j6 -l6
+[0.136s] [35m[1mScanning dependencies of target sub_node[0m
+[0.188s] [ 33%] [32mBuilding CXX object CMakeFiles/sub_node.dir/src/sub_node.cpp.o[0m
+[3.172s] [01m[K/home/motoki/kosyu_ws/src/sub/src/sub_node.cpp:[m[K In constructor ‘[01m[KSubNode::SubNode(const string&, const rclcpp::NodeOptions&)[m[K’:
+[3.172s] [01m[K/home/motoki/kosyu_ws/src/sub/src/sub_node.cpp:13:20:[m[K [01;31m[Kerror: [m[K‘[01m[KPubNode[m[K’ has not been declared
+[3.172s]    13 |         std::bind(&[01;31m[KPubNode[m[K::timer_callback,this)
+[3.173s]       |                    [01;31m[K^~~~~~~[m[K
+[4.284s] make[2]: *** [CMakeFiles/sub_node.dir/build.make:63: CMakeFiles/sub_node.dir/src/sub_node.cpp.o] Error 1
+[4.284s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/sub_node.dir/all] Error 2
+[4.285s] make: *** [Makefile:141: all] Error 2
+[4.293s] Invoked command in '/home/motoki/kosyu_ws/build/sub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --build /home/motoki/kosyu_ws/build/sub -- -j6 -l6

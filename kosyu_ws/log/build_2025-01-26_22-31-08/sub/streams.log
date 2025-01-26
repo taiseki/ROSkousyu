@@ -1,0 +1,49 @@
+[0.052s] Invoking command in '/home/motoki/kosyu_ws/build/sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --build /home/motoki/kosyu_ws/build/sub -- -j6 -l6
+[0.103s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.167s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.593s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.608s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.675s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.680s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.932s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.029s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.033s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.304s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.508s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.671s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.673s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.673s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/motoki/kosyu_ws/src/sub/include>
+[1.673s] -- Configured cppcheck exclude dirs and/or files: 
+[1.675s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.675s] -- Configured cpplint exclude dirs and/or files: 
+[1.676s] -- Added test 'lint_cmake' to check CMake code style
+[1.678s] -- Added test 'uncrustify' to check C / C++ code style
+[1.678s] -- Configured uncrustify additional arguments: 
+[1.678s] -- Added test 'xmllint' to check XML markup files
+[1.685s] -- Configuring done
+[1.703s] -- Generating done
+[1.775s] -- Build files have been written to: /home/motoki/kosyu_ws/build/sub
+[1.845s] [35m[1mScanning dependencies of target sub_node[0m
+[2.025s] [ 50%] [32m[1mLinking CXX executable sub_node[0m
+[2.906s] [100%] Built target sub_node
+[3.054s] Invoked command in '/home/motoki/kosyu_ws/build/sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --build /home/motoki/kosyu_ws/build/sub -- -j6 -l6
+[3.059s] Invoking command in '/home/motoki/kosyu_ws/build/sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --install /home/motoki/kosyu_ws/build/sub
+[3.077s] -- Install configuration: ""
+[3.078s] -- Execute custom install script
+[3.079s] -- Symlinking: /home/motoki/kosyu_ws/install/sub/lib/sub/sub_node
+[3.097s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/ament_index/resource_index/package_run_dependencies/sub
+[3.098s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/ament_index/resource_index/parent_prefix_path/sub
+[3.099s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/environment/ament_prefix_path.sh
+[3.099s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/environment/ament_prefix_path.dsv
+[3.100s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/environment/path.sh
+[3.100s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/environment/path.dsv
+[3.100s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/local_setup.bash
+[3.101s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/local_setup.sh
+[3.101s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/local_setup.zsh
+[3.101s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/local_setup.dsv
+[3.101s] -- Symlinking: /home/motoki/kosyu_ws/install/sub/share/sub/package.dsv
+[3.120s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/ament_index/resource_index/packages/sub
+[3.120s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/cmake/subConfig.cmake
+[3.121s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/cmake/subConfig-version.cmake
+[3.121s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/sub/share/sub/package.xml
+[3.127s] Invoked command in '/home/motoki/kosyu_ws/build/sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --install /home/motoki/kosyu_ws/build/sub

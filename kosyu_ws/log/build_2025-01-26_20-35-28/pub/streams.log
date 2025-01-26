@@ -1,0 +1,23 @@
+[0.163s] Invoking command in '/home/motoki/kosyu_ws/build/pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --build /home/motoki/kosyu_ws/build/pub -- -j6 -l6
+[0.957s] [100%] Built target pub_node
+[0.987s] Invoked command in '/home/motoki/kosyu_ws/build/pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --build /home/motoki/kosyu_ws/build/pub -- -j6 -l6
+[1.110s] Invoking command in '/home/motoki/kosyu_ws/build/pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --install /home/motoki/kosyu_ws/build/pub
+[1.272s] -- Install configuration: ""
+[1.273s] -- Execute custom install script
+[1.275s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/pub/lib/pub/pub_node
+[1.278s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/pub/share/ament_index/resource_index/package_run_dependencies/pub
+[1.280s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/pub/share/ament_index/resource_index/parent_prefix_path/pub
+[1.284s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/pub/share/pub/environment/ament_prefix_path.sh
+[1.285s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/pub/share/pub/environment/ament_prefix_path.dsv
+[1.287s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/pub/share/pub/environment/path.sh
+[1.287s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/pub/share/pub/environment/path.dsv
+[1.288s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/pub/share/pub/local_setup.bash
+[1.289s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/pub/share/pub/local_setup.sh
+[1.289s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/pub/share/pub/local_setup.zsh
+[1.290s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/pub/share/pub/local_setup.dsv
+[1.290s] -- Symlinking: /home/motoki/kosyu_ws/install/pub/share/pub/package.dsv
+[1.448s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/pub/share/ament_index/resource_index/packages/pub
+[1.451s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/pub/share/pub/cmake/pubConfig.cmake
+[1.451s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/pub/share/pub/cmake/pubConfig-version.cmake
+[1.451s] -- Up-to-date symlink: /home/motoki/kosyu_ws/install/pub/share/pub/package.xml
+[1.491s] Invoked command in '/home/motoki/kosyu_ws/build/pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/motoki/my_ws/install/yolo:/home/motoki/my_ws/install/robot_op2:/home/motoki/my_ws/install/robot_op:/home/motoki/my_ws/install/robot_odom:/home/motoki/my_ws/install/robot_goal:/opt/ros/foxy /usr/bin/cmake --install /home/motoki/kosyu_ws/build/pub

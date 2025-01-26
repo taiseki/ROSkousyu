@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target sub_node[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/sub_node.dir/src/sub_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/sub_node.dir/src/main.cpp.o[0m
+[01m[K/home/motoki/kosyu_ws/src/sub/src/sub_node.cpp:[m[K In constructor ‘[01m[KSubNode::SubNode(const string&, const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/motoki/kosyu_ws/src/sub/src/sub_node.cpp:13:24:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid SubNode::sub_callback(example_interfaces::msg::String_<std::allocator<void> >::SharedPtr)[m[K’
+   13 |         [01;31m[Kthis->SubNode::sub_callback[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/motoki/kosyu_ws/src/sub/src/sub_node.cpp:4[m[K:
+[01m[K/home/motoki/kosyu_ws/src/sub/src/sub_node.hpp:13:14:[m[K [01;36m[Knote: [m[Kdeclared here
+   13 |         void [01;36m[Ksub_callback[m[K(example_interfaces::msg::String::SharedPtr msg){
+      |              [01;36m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/sub_node.dir/build.make:63: CMakeFiles/sub_node.dir/src/sub_node.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/sub_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
